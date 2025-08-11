@@ -1,1 +1,1 @@
-This is a HeadsUp game, reduced to singing only.
+This is a HeadsUp game reduced to singing only.
