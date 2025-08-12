@@ -13,7 +13,6 @@ export default function useSetLandscape() {
       }
     }
     changeScreenOrientation();
-
     return () => ScreenOrientation.unlockAsync();
   }, []);
 }

@@ -1,7 +1,6 @@
-import React from "react";
+import * as React from "react";
 import { SafeAreaView, TouchableOpacity, Text } from "react-native";
 import { useRouter } from "expo-router";
-import GameScreen from "./gameScreen";
 
 export default function HomeScreen() {
   const router = useRouter();
