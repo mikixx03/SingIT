@@ -34,7 +34,7 @@ const stylesSongCard = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 28,
+    fontSize: 42,
     fontWeight: "bold",
     color: "#fff",
     marginBottom: 10,
@@ -43,7 +43,7 @@ const stylesSongCard = StyleSheet.create({
     textShadowRadius: 4,
   },
   artist: {
-    fontSize: 20,
+    fontSize: 26,
     color: "#c0c0c0",
     marginBottom: 20,
     textShadowColor: "rgba(0,0,0,0.8)",
@@ -51,7 +51,7 @@ const stylesSongCard = StyleSheet.create({
     textShadowRadius: 4,
   },
   timeLeft: {
-    fontSize: 16,
+    fontSize: 20,
     color: "#eee",
     fontStyle: "italic",
     textShadowColor: "rgba(0,0,0,0.8)",
