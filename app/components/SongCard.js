@@ -10,7 +10,8 @@ import stylesSongCard from "../style";
 import songCardBackground from "../assets/songCardBackground.webp";
 
 //maybe one day we should add cover?
-export default function SongCard({ title, artist }) {
+export default function SongCard({ title, artist, timeLeft }) {
+  
   return (
     <View style={stylesSongCard.outerContainer}>
       <View style={stylesSongCard.innerContainer}>
@@ -24,7 +25,7 @@ export default function SongCard({ title, artist }) {
           >
             <Text style={stylesSongCard.title}>{title}</Text>
             <Text style={stylesSongCard.artist}>{artist}</Text>
-            <Text style={stylesSongCard.timeLeft}>Time left is (time)</Text>
+            <Text style={stylesSongCard.timeLeft}>Time left is {timeLeft}</Text>
           </TouchableOpacity>
         </ImageBackground>
       </View>
